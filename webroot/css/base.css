@@ -1,0 +1,84 @@
+/**************************************************/
+/********** CSS PERSONALIZACIÓN PLASGEN ***********/
+/**************************************************/
+
+/*--------- BOOTSTRAP, DATATABLES ------------------*/
+a { color: #01aef2; }
+.btn-primary { background-color: #01aef2; border-color: #009bd8; }
+.panel-primary>.panel-heading { background-color: #01aef2; border-color: lightgrey; }
+.panel-primary{ border-color: lightgrey; }
+.cwhite{ color: white; }
+.breadcrumb{ border-radius: 0px; border-left: 4px solid #01aef2; background-color: #F9F9F9; }
+.page-header { margin: 20px 0 20px; }
+.form-group { }
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover { background-color: #01aef2; border-color: #009bd8; }
+
+.nav-tabs>li a{ color: white; border-radius: 0px; }
+.nav-tabs>li { background-color: #01aef2; }
+.nav-tabs>li>a:hover { color: #555; }
+
+.table .ar{ text-align: right; } .table .al{ text-align: left; } .table .ac{ text-align: center; }
+
+/*--------- SB ADMIN 2 ------------------*/
+.navbar-brand { padding: 4px 15px; }
+.navbar-static-top { background-color: #01aef0 !important; }
+#page-wrapper{ padding-top: 15px; }
+#loginwindow{ background: #01aef2; font-family: 'HelveticaLTStdLight'; }
+#panel-login{ color: white; margin-top: 45%; }
+#panel-login-image{ text-align:center; margin-bottom: 40px; }
+/*
+.btn-primary{ color: white; border: 1px solid white; }
+.btn-primary:hover{ background-color: #01aef2; }
+*/
+
+.dataTable th { background-color: #01aef2 !important; }
+.tab-content {     border: 1px solid #dddddd; border-width: 0px 1px 1px 1px; }
+
+/*-------- CAKEPHP ------------*/
+.message{ padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+.success{ color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; }
+.error{ color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
+
+
+/*-------- SECCIONES INTERNAS ---------*/
+.actions{ text-align: center; }
+#loginwindow .btn{ color: white; font-family: 'HelveticaLTStdRoman'; border-radius: 10px; border: 1px solid white;  }
+
+
+
+
+
+/**************************************************/
+/*********** FUENTES ******************************/
+/**************************************************/
+@font-face {
+    font-family: 'HelveticaLTStdLight';
+    src: url('fonts/HelveticaLTStdLight.eot');
+    src: url('fonts/HelveticaLTStdLight.eot') format('embedded-opentype'),
+         url('fonts/HelveticaLTStdLight.woff2') format('woff2'),
+         url('fonts/HelveticaLTStdLight.woff') format('woff'),
+         url('fonts/HelveticaLTStdLight.ttf') format('truetype'),
+         url('fonts/HelveticaLTStdLight.svg#HelveticaLTStdLight') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaLTStdRoman';
+    src: url('fonts/HelveticaLTStdRoman.eot');
+    src: url('fonts/HelveticaLTStdRoman.eot') format('embedded-opentype'),
+         url('fonts/HelveticaLTStdRoman.woff2') format('woff2'),
+         url('fonts/HelveticaLTStdRoman.woff') format('woff'),
+         url('fonts/HelveticaLTStdRoman.ttf') format('truetype'),
+         url('fonts/HelveticaLTStdRoman.svg#HelveticaLTStdRoman') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaLTStdBlk';
+    src: url('fonts/HelveticaLTStdBlk.eot');
+    src: url('fonts/HelveticaLTStdBlk.eot') format('embedded-opentype'),
+         url('fonts/HelveticaLTStdBlk.woff2') format('woff2'),
+         url('fonts/HelveticaLTStdBlk.woff') format('woff'),
+         url('fonts/HelveticaLTStdBlk.ttf') format('truetype'),
+         url('fonts/HelveticaLTStdBlk.svg#HelveticaLTStdBlk') format('svg');
+}
+
